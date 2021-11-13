@@ -1,7 +1,7 @@
 import random
 import math
  # Take Inputs
-lower = int(input("Emter Lower bound :- ")) 
+lower = int(input("Enter Lower bound :- ")) 
  
 # Take Inputs
 upper = int(input("Enter Upper bound :- "))  
