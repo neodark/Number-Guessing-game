@@ -1,4 +1,4 @@
-import random
+
 import math
  # Take Inputs
 lower = int(input("Enter Lower bound :- ")) 
