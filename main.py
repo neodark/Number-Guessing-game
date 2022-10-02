@@ -27,7 +27,8 @@ while count < math.log(upper - lower + 1, 2):
        break
     elif x > guess:
        print("You Guessed too Small!")
-    //////
+    elif x < guess:
+       print("You Guessed too High!")
  
 # If Guessing is more than required guesses, then shows this output
 if count >= math.log(upper - lower + 1, 2):
