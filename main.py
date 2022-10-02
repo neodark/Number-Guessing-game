@@ -25,7 +25,8 @@ while count < math.log(upper - lower + 1, 2):
        print("Congratulations you did it in ", count, " tries!")
        # Once guessed, loop will break 
        break
-    ////
+    elif x > guess:
+       print("You Guessed too Small!")
     //////
  
 # If Guessing is more than required guesses, then shows this output
