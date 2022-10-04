@@ -15,7 +15,7 @@ count = 0
  
 # for calculation of minimum number of guesses depends upon range
 while count < math.log(upper - lower + 1, 2):
-    count = 1
+    count += 1
    
     # take guessing number as input
     guess = int(input("Guess a number :- ")) 
